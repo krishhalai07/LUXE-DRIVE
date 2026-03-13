@@ -27,7 +27,7 @@ const Login = ({ onLogin, onSwitchToRegister }) => {
             <label>Email</label>
             <input 
               className="input" 
-              type="emailss" 
+              type="email" 
               required 
               value={formData.email}
               onChange={e => setFormData({...formData, email: e.target.value})}

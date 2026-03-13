@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Hero from '../components/home/Hero';
-// import CarGrid from '../components/cars/CarGrid';
+import CarGrid from '../components/cars/CarGrid';
 import Features from '../components/home/Features';
 import Reviews from '../components/home/Reviews';
 import Contact from '../components/home/Contact';

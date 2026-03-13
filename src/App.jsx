@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './styles/theme.css';
-// import Header from './layout/Header';
-// import Footer from './layout/Footer';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 import HomePage from './pages/HomePage';
 import CarsPage from './pages/CarsPage';
-// import ProfilePage from './pages/ProfilePage';
-// import AdminDashboard from './pages/AdminDashboard';
+import ProfilePage from './pages/ProfilePage';
+import AdminDashboard from './pages/AdminDashboard';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-// import CarModal from './components/cars/CarModal';
-// import PaymentModal from './components/common/PaymentModal';
+import CarModal from './components/cars/CarModal';
+import PaymentModal from './components/common/PaymentModal';
 import { cars as sampleCars } from './data/cars';
 
 function App() {

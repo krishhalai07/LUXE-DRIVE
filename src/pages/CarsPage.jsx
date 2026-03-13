@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import CarGrid from '../components/cars/CarGrid';
+import CarGrid from '../components/cars/CarGrid';
 
 const CarsPage = ({ cars, onView, onRent }) => {
   const [searchTerm, setSearchTerm] = useState('');
