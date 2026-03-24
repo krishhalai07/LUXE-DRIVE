@@ -32,8 +32,10 @@ const Header = ({ user, onLogout, onNavigate, profilePic }) => {
           <div className="header-actions">
             {user && (
               <>
-                <span className="nav-link" onClick={() => onNavigate('home')} style={{ cursor: 'pointer' }}>Home</span>
-                <span className="nav-link" onClick={() => onNavigate('cars')} style={{ cursor: 'pointer' }}>Cars</span>
+                <span className="nav-link" onClick={() => onNavigate('home')}>Home</span>
+                <span className="nav-link" onClick={() => onNavigate('cars')}>Cars</span>
+                <span className="nav-link" onClick={() => onNavigate('about')}>About</span>
+                <span className="nav-link" onClick={() => onNavigate('contact')}>Contact</span>
                 <div className="profile-icon" onClick={() => onNavigate('profile')} title="Profile">
                   {profilePic ? (
                     <img src={profilePic} alt="Profile" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />

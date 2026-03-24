@@ -19,7 +19,7 @@ const CarCard = ({ car, onView, onRent }) => {
             <span className="period">/day</span>
           </div>
           <div className="car-actions">
-            <button className="btn btn-secondary" onClick={() => onView(car)}>View</button>
+            <button className="btn btn-secondary" onClick={() => onView(car.id)}>View</button>
             <button className="btn btn-primary" onClick={() => onRent(car)}>Rent</button>
           </div>
         </div>
