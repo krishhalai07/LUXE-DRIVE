@@ -4,7 +4,7 @@ const EMPTY = { brand: '', model: '', type: '', price: '', status: 'available' }
 
 const AdminVehicles = () => {
   const [cars, setCars] = useState([
-    { id: 1, brand: 'BMW',    model: 'M5',      type: 'Luxury',   price: 10000, status: 'available' },
+    { id: 1, brand: 'BMW',    model: 'M5',      type: 'Luxury',   price: 10000, status: 'unavailable' },
     { id: 2, brand: 'Audi',   model: 'R8',      type: 'Sports',   price: 20000, status: 'available' },
     { id: 3, brand: 'Tesla',  model: 'Model S', type: 'Electric', price: 13000, status: 'rented' },
     { id: 4, brand: 'Lamborghini', model: 'Urus', type: 'SUV',    price: 25000, status: 'available' },
