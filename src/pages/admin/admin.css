@@ -14,7 +14,7 @@
   flex-direction: column;
   position: fixed;
   height: 100vh;
-  top: 0;
+  top: 1;
   left: 0;
   z-index: 100;
 }
